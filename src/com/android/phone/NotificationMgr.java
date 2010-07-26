@@ -791,7 +791,6 @@ if (callDurationMsec > 0) {
                     pendingIntent  // contentIntent
                     );
             notification.defaults |= Notification.DEFAULT_SOUND;
-            notification.flags |= Notification.FLAG_NO_CLEAR;
             notification.flags |= Notification.FLAG_SHOW_LIGHTS;
             notification.ledARGB = 0xff00ff00;
             notification.ledOnMS = 500;
