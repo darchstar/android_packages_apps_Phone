@@ -794,7 +794,6 @@ if (callDurationMsec > 0) {
                     pendingIntent  // contentIntent
                     );
             notification.defaults |= Notification.DEFAULT_SOUND;
-            notification.flags |= Notification.FLAG_NO_CLEAR;
             configureLedNotification(notification);
             mNotificationMgr.notify(VOICEMAIL_NOTIFICATION, notification);
         } else {
